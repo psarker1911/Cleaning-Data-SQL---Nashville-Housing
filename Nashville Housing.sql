@@ -150,7 +150,7 @@ SET PropertySplitAddress = SUBSTRING(PropertyAddress, 1, INSTR(PropertyAddress, 
     PropertySplitCity = SUBSTRING(PropertyAddress, INSTR(PropertyAddress, ',') + 2);
 
 -- Create 2 new columns then copy all Property Address data into the PropertySplitAddress 
--- column and copy call the City names into the PropertySplitCity column
+-- column and copy all the City names into the PropertySplitCity column
 
 -- below check
 SELECT *
