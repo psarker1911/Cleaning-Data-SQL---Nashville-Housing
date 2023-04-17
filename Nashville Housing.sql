@@ -280,7 +280,7 @@ WHERE row_num > 1;
 
 -- SQL Error [1288] [HY000]: The target table RowNumCTE of the DELETE is not updatable
 
--- use subquery instaed?
+-- use subquery instead?
 
 DELETE FROM Nashville_Housing
 WHERE UniqueID NOT IN (
